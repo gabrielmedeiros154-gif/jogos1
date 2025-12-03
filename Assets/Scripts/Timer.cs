@@ -7,6 +7,8 @@ public class Timer : MonoBehaviour
 	[SerializeField] TextMeshProUGUI textoTimer;
 	[SerializeField] float tempoRestante;
 	
+	public bool acabou =false;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,6 +27,8 @@ else
 {
 	tempoRestante = 0;
 textoTimer.color = Color.red;
+	Time.timeScale = 0f;
+	acabou = true;
 }
 
 	int minutos = Mathf.FloorToInt(tempoRestante / 60);
