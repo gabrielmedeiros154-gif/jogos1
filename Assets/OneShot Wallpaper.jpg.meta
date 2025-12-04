@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b547c46960cc5464f88999ef0b2b91b4
+guid: 72749b62215614e459566926dc865fd0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2960828222963255142
-    second: 5d287355a5ca31ecc88fe5fd52936142_0
+      213: 2872934969525241451
+    second: OneShot Wallpaper_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 5d287355a5ca31ecc88fe5fd52936142_0
+      name: OneShot Wallpaper_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 680
-        height: 1303
+        width: 736
+        height: 1308
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6670da6e499f61920800000000000000
-      internalID: 2960828222963255142
+      spriteID: b6689512227bed720800000000000000
+      internalID: 2872934969525241451
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      5d287355a5ca31ecc88fe5fd52936142_0: 2960828222963255142
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
