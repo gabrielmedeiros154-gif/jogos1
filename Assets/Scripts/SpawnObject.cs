@@ -10,7 +10,7 @@ public class SpawnObject : MonoBehaviour
         Rigidbody2D objectRB = GetComponent<Rigidbody2D>();
 
         // Armazena uma direção aleatória com range (X,Y) para o impulso
-        Vector3 forceDirection = new Vector3(Random.Range(-10f, 10f), 12f, 0).normalized * 12f;
+        Vector3 forceDirection = new Vector3(Random.Range(-10f, 10f), 44f, 0).normalized * 24f;
         
         // Aplica o impulso no objeto instanciado, baseado na direção armazenada acima
         objectRB.AddForce(forceDirection, ForceMode2D.Impulse);
